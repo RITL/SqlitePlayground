@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F02D3241BD0F87600A12E3A /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F02D31B1BD0F87600A12E3A /* FMDatabase.m */; settings = {ASSET_TAGS = (); }; };
+		0F02D3251BD0F87600A12E3A /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F02D31D1BD0F87600A12E3A /* FMDatabaseAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		0F02D3261BD0F87600A12E3A /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F02D31F1BD0F87600A12E3A /* FMDatabasePool.m */; settings = {ASSET_TAGS = (); }; };
+		0F02D3271BD0F87600A12E3A /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F02D3211BD0F87600A12E3A /* FMDatabaseQueue.m */; settings = {ASSET_TAGS = (); }; };
+		0F02D3281BD0F87600A12E3A /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F02D3231BD0F87600A12E3A /* FMResultSet.m */; settings = {ASSET_TAGS = (); }; };
+		0F6F3FDE1BC361AA00BEE250 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6F3FDD1BC361AA00BEE250 /* main.m */; };
+		0F6F3FE11BC361AA00BEE250 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6F3FE01BC361AA00BEE250 /* AppDelegate.m */; };
+		0F6F3FE91BC361AA00BEE250 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F6F3FE81BC361AA00BEE250 /* Images.xcassets */; };
+		0F6F3FEC1BC361AA00BEE250 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F6F3FEA1BC361AA00BEE250 /* LaunchScreen.xib */; };
+		0F6F3FF81BC361AA00BEE250 /* Sqilte3___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6F3FF71BC361AA00BEE250 /* Sqilte3___Tests.m */; };
+		0F6F400C1BC3629F00BEE250 /* Humen.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6F400B1BC3629F00BEE250 /* Humen.m */; };
+		0F6F400F1BC3631F00BEE250 /* HumenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6F400E1BC3631F00BEE250 /* HumenTableViewController.m */; };
+		0F6F40121BC363A200BEE250 /* Sqlite3Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6F40111BC363A200BEE250 /* Sqlite3Manager.m */; };
+		0F6F40171BC37F0800BEE250 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6F40161BC37F0800BEE250 /* AddViewController.m */; };
+		0FD364FE1BCFBB590099D501 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FD364FD1BCFBB590099D501 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		0FD365011BCFCEDE0099D501 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD364FF1BCFBBE50099D501 /* libsqlite3.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F6F3FF21BC361AA00BEE250 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F6F3FD01BC361AA00BEE250 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F6F3FD71BC361AA00BEE250;
+			remoteInfo = "Sqilte3 列表";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F02D31A1BD0F87600A12E3A /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		0F02D31B1BD0F87600A12E3A /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		0F02D31C1BD0F87600A12E3A /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		0F02D31D1BD0F87600A12E3A /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		0F02D31E1BD0F87600A12E3A /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		0F02D31F1BD0F87600A12E3A /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		0F02D3201BD0F87600A12E3A /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		0F02D3211BD0F87600A12E3A /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		0F02D3221BD0F87600A12E3A /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		0F02D3231BD0F87600A12E3A /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		0F6F3FD81BC361AA00BEE250 /* Sqilte3 列表.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sqilte3 列表.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F6F3FDC1BC361AA00BEE250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F6F3FDD1BC361AA00BEE250 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F6F3FDF1BC361AA00BEE250 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F6F3FE01BC361AA00BEE250 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F6F3FE81BC361AA00BEE250 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0F6F3FEB1BC361AA00BEE250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0F6F3FF11BC361AA00BEE250 /* Sqilte3 列表Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sqilte3 列表Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F6F3FF61BC361AA00BEE250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F6F3FF71BC361AA00BEE250 /* Sqilte3___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Sqilte3___Tests.m"; sourceTree = "<group>"; };
+		0F6F400A1BC3629F00BEE250 /* Humen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Humen.h; sourceTree = "<group>"; };
+		0F6F400B1BC3629F00BEE250 /* Humen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Humen.m; sourceTree = "<group>"; };
+		0F6F400D1BC3631F00BEE250 /* HumenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HumenTableViewController.h; sourceTree = "<group>"; };
+		0F6F400E1BC3631F00BEE250 /* HumenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HumenTableViewController.m; sourceTree = "<group>"; };
+		0F6F40101BC363A200BEE250 /* Sqlite3Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sqlite3Manager.h; sourceTree = "<group>"; };
+		0F6F40111BC363A200BEE250 /* Sqlite3Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sqlite3Manager.m; sourceTree = "<group>"; };
+		0F6F40151BC37F0800BEE250 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		0F6F40161BC37F0800BEE250 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		0FD364FD1BCFBB590099D501 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0FD364FF1BCFBBE50099D501 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F6F3FD51BC361AA00BEE250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FD365011BCFCEDE0099D501 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F6F3FEE1BC361AA00BEE250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F02D3191BD0F87600A12E3A /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				0F02D31A1BD0F87600A12E3A /* FMDatabase.h */,
+				0F02D31B1BD0F87600A12E3A /* FMDatabase.m */,
+				0F02D31C1BD0F87600A12E3A /* FMDatabaseAdditions.h */,
+				0F02D31D1BD0F87600A12E3A /* FMDatabaseAdditions.m */,
+				0F02D31E1BD0F87600A12E3A /* FMDatabasePool.h */,
+				0F02D31F1BD0F87600A12E3A /* FMDatabasePool.m */,
+				0F02D3201BD0F87600A12E3A /* FMDatabaseQueue.h */,
+				0F02D3211BD0F87600A12E3A /* FMDatabaseQueue.m */,
+				0F02D3221BD0F87600A12E3A /* FMResultSet.h */,
+				0F02D3231BD0F87600A12E3A /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		0F6F3FCF1BC361AA00BEE250 = {
+			isa = PBXGroup;
+			children = (
+				0FD364FF1BCFBBE50099D501 /* libsqlite3.tbd */,
+				0F02D3191BD0F87600A12E3A /* FMDB */,
+				0F6F3FDA1BC361AA00BEE250 /* Sqilte3 列表 */,
+				0F6F3FF41BC361AA00BEE250 /* Sqilte3 列表Tests */,
+				0F6F3FD91BC361AA00BEE250 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F6F3FD91BC361AA00BEE250 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F6F3FD81BC361AA00BEE250 /* Sqilte3 列表.app */,
+				0F6F3FF11BC361AA00BEE250 /* Sqilte3 列表Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F6F3FDA1BC361AA00BEE250 /* Sqilte3 列表 */ = {
+			isa = PBXGroup;
+			children = (
+				0F6F3FDF1BC361AA00BEE250 /* AppDelegate.h */,
+				0F6F3FE01BC361AA00BEE250 /* AppDelegate.m */,
+				0F6F40051BC361F200BEE250 /* Controller */,
+				0F6F40041BC361ED00BEE250 /* Views */,
+				0F6F40031BC361E700BEE250 /* Model */,
+				0F6F40061BC361FF00BEE250 /* Others */,
+				0F6F3FDB1BC361AA00BEE250 /* Supporting Files */,
+			);
+			path = "Sqilte3 列表";
+			sourceTree = "<group>";
+		};
+		0F6F3FDB1BC361AA00BEE250 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F6F3FDC1BC361AA00BEE250 /* Info.plist */,
+				0F6F3FDD1BC361AA00BEE250 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F6F3FF41BC361AA00BEE250 /* Sqilte3 列表Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0F6F3FF71BC361AA00BEE250 /* Sqilte3___Tests.m */,
+				0F6F3FF51BC361AA00BEE250 /* Supporting Files */,
+			);
+			path = "Sqilte3 列表Tests";
+			sourceTree = "<group>";
+		};
+		0F6F3FF51BC361AA00BEE250 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F6F3FF61BC361AA00BEE250 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F6F40031BC361E700BEE250 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0F6F400A1BC3629F00BEE250 /* Humen.h */,
+				0F6F400B1BC3629F00BEE250 /* Humen.m */,
+				0F6F40101BC363A200BEE250 /* Sqlite3Manager.h */,
+				0F6F40111BC363A200BEE250 /* Sqlite3Manager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0F6F40041BC361ED00BEE250 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0FD364FD1BCFBB590099D501 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0F6F40051BC361F200BEE250 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0F6F400D1BC3631F00BEE250 /* HumenTableViewController.h */,
+				0F6F400E1BC3631F00BEE250 /* HumenTableViewController.m */,
+				0F6F40151BC37F0800BEE250 /* AddViewController.h */,
+				0F6F40161BC37F0800BEE250 /* AddViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0F6F40061BC361FF00BEE250 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				0F6F3FE81BC361AA00BEE250 /* Images.xcassets */,
+				0F6F3FEA1BC361AA00BEE250 /* LaunchScreen.xib */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F6F3FD71BC361AA00BEE250 /* Sqilte3 列表 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F6F3FFB1BC361AA00BEE250 /* Build configuration list for PBXNativeTarget "Sqilte3 列表" */;
+			buildPhases = (
+				0F6F3FD41BC361AA00BEE250 /* Sources */,
+				0F6F3FD51BC361AA00BEE250 /* Frameworks */,
+				0F6F3FD61BC361AA00BEE250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sqilte3 列表";
+			productName = "Sqilte3 列表";
+			productReference = 0F6F3FD81BC361AA00BEE250 /* Sqilte3 列表.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F6F3FF01BC361AA00BEE250 /* Sqilte3 列表Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F6F3FFE1BC361AA00BEE250 /* Build configuration list for PBXNativeTarget "Sqilte3 列表Tests" */;
+			buildPhases = (
+				0F6F3FED1BC361AA00BEE250 /* Sources */,
+				0F6F3FEE1BC361AA00BEE250 /* Frameworks */,
+				0F6F3FEF1BC361AA00BEE250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F6F3FF31BC361AA00BEE250 /* PBXTargetDependency */,
+			);
+			name = "Sqilte3 列表Tests";
+			productName = "Sqilte3 列表Tests";
+			productReference = 0F6F3FF11BC361AA00BEE250 /* Sqilte3 列表Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F6F3FD01BC361AA00BEE250 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = YueWen;
+				TargetAttributes = {
+					0F6F3FD71BC361AA00BEE250 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					0F6F3FF01BC361AA00BEE250 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 0F6F3FD71BC361AA00BEE250;
+					};
+				};
+			};
+			buildConfigurationList = 0F6F3FD31BC361AA00BEE250 /* Build configuration list for PBXProject "Sqilte3 列表" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F6F3FCF1BC361AA00BEE250;
+			productRefGroup = 0F6F3FD91BC361AA00BEE250 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F6F3FD71BC361AA00BEE250 /* Sqilte3 列表 */,
+				0F6F3FF01BC361AA00BEE250 /* Sqilte3 列表Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F6F3FD61BC361AA00BEE250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FD364FE1BCFBB590099D501 /* Main.storyboard in Resources */,
+				0F6F3FEC1BC361AA00BEE250 /* LaunchScreen.xib in Resources */,
+				0F6F3FE91BC361AA00BEE250 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F6F3FEF1BC361AA00BEE250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F6F3FD41BC361AA00BEE250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6F3FE11BC361AA00BEE250 /* AppDelegate.m in Sources */,
+				0F6F40121BC363A200BEE250 /* Sqlite3Manager.m in Sources */,
+				0F6F40171BC37F0800BEE250 /* AddViewController.m in Sources */,
+				0F02D3241BD0F87600A12E3A /* FMDatabase.m in Sources */,
+				0F02D3261BD0F87600A12E3A /* FMDatabasePool.m in Sources */,
+				0F02D3271BD0F87600A12E3A /* FMDatabaseQueue.m in Sources */,
+				0F6F3FDE1BC361AA00BEE250 /* main.m in Sources */,
+				0F6F400F1BC3631F00BEE250 /* HumenTableViewController.m in Sources */,
+				0F02D3281BD0F87600A12E3A /* FMResultSet.m in Sources */,
+				0F6F400C1BC3629F00BEE250 /* Humen.m in Sources */,
+				0F02D3251BD0F87600A12E3A /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F6F3FED1BC361AA00BEE250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6F3FF81BC361AA00BEE250 /* Sqilte3___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F6F3FF31BC361AA00BEE250 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F6F3FD71BC361AA00BEE250 /* Sqilte3 列表 */;
+			targetProxy = 0F6F3FF21BC361AA00BEE250 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F6F3FEA1BC361AA00BEE250 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F6F3FEB1BC361AA00BEE250 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F6F3FF91BC361AA00BEE250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F6F3FFA1BC361AA00BEE250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F6F3FFC1BC361AA00BEE250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sqilte3 列表/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0F6F3FFD1BC361AA00BEE250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sqilte3 列表/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0F6F3FFF1BC361AA00BEE250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sqilte3 列表Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sqilte3 列表.app/Sqilte3 列表";
+			};
+			name = Debug;
+		};
+		0F6F40001BC361AA00BEE250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sqilte3 列表Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sqilte3 列表.app/Sqilte3 列表";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F6F3FD31BC361AA00BEE250 /* Build configuration list for PBXProject "Sqilte3 列表" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F6F3FF91BC361AA00BEE250 /* Debug */,
+				0F6F3FFA1BC361AA00BEE250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F6F3FFB1BC361AA00BEE250 /* Build configuration list for PBXNativeTarget "Sqilte3 列表" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F6F3FFC1BC361AA00BEE250 /* Debug */,
+				0F6F3FFD1BC361AA00BEE250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F6F3FFE1BC361AA00BEE250 /* Build configuration list for PBXNativeTarget "Sqilte3 列表Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F6F3FFF1BC361AA00BEE250 /* Debug */,
+				0F6F40001BC361AA00BEE250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F6F3FD01BC361AA00BEE250 /* Project object */;
+}
